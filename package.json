@@ -1,0 +1,19 @@
+{
+  "name": "test.systemjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "debug:test":"node-debug ./module/es5/Test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },"dependencies": {
+      "systemjs": "*",
+      "systemjs-plugin-babel": "*",
+      "resolve": "*"
+  },
+  "devDependencies": {
+      "node-inspector": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}
